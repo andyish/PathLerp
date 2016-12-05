@@ -1,0 +1,100 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "jasmine": true,
+    "es6": true,
+    "amd": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "no-bitwise": "error",
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "block-scoped-var": "error",
+    "camelcase": [
+      "error",
+      {
+        "properties": "never"
+      }
+    ],
+    "comma-spacing": "error",
+    "comma-style": "error",
+    "complexity": [
+      "error",
+      10
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "log"
+        ]
+      }
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "eqeqeq": "error",
+    "no-caller": "error",
+    "guard-for-in": "error",
+    "max-params": [
+      "error",
+      5
+    ],
+    "max-depth": [
+      "error",
+      4
+    ],
+    "no-extra-semi": "error",
+    "no-new-func": "error",
+    "no-proto": "error",
+    "no-sequences": "error",
+    "no-shadow": "error",
+    "no-new": "error",
+    "no-nested-ternary": "error",
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "new-cap": [
+      "error",
+      {
+        "properties": false
+      }
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "no-use-before-define": "error",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": "error",
+    "wrap-iife": [
+      "error",
+      "inside"
+    ],
+    "yoda": "error"
+  }
+}

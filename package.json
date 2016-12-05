@@ -1,0 +1,30 @@
+{
+  "name": "path-lerp",
+  "version": "1.0.0",
+  "description": "Lerp along a path (list of 2d cordinates)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
+  },
+  "keywords": [
+    "interpolation",
+    "lerp",
+    "path",
+    "pathing",
+    "2d",
+    "pixi",
+    "pixijs",
+    "es6"
+  ],
+  "author": "Andrew Isherwood",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.11.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
