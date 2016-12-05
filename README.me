@@ -1,1 +1,27 @@
-Path-lerp
+## Path-lerp
+
+A util function that enables you to given a value between 0.0 and 1.0 get the x, y position on a path.
+
+Offers the ability to cache coordinates to a given degree of fidelity.
+
+### Example
+
+``` javascript
+const PathLerp = require('path-lerp', {
+    cacheEnabled: true,
+    cacheSensitivity: 2
+});
+
+const path = [
+    {x: 0, y: 0},
+    {x: 1, y: 1},
+    {x: 2, y: 2},
+    {x: 3, y: 3},
+];
+
+const pathLerp = new PathLerp(path);
+
+pathLerp.lerp(0.5); // {x: 1.5, y: 1.5}
+pathLerp.lerp(0.75); // {x: 2.25, y: 2.25}
+
+```

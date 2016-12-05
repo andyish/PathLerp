@@ -1,6 +1,6 @@
 {
   "name": "path-lerp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lerp along a path (list of 2d cordinates)",
   "main": "index.js",
   "scripts": {
