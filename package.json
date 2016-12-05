@@ -1,10 +1,14 @@
 {
   "name": "path-lerp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lerp along a path (list of 2d cordinates)",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyish/PathLerp"
   },
   "keywords": [
     "interpolation",
